@@ -1,0 +1,16 @@
+
+#header .swiper-pagination-bullet {
+	width: 6px;
+	height: 6px;
+	border: 1px solid #fff;
+	background-color: transparent;
+	opacity: 1;
+}
+
+#header .swiper-pagination-bullet-active {
+	background-color: #fff;
+}
+
+.img {
+	width: 100%
+}

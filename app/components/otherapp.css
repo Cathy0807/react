@@ -1,0 +1,29 @@
+.oapp {
+	height: 165px;
+	background-color: #fff;
+}
+
+.oapp li {
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+	width: 25%;
+	float: left;
+	margin-top: 12px;
+}
+
+.oapp li:last-child:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.oapp a {
+	color: #666;
+}
+
+.app_icon {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto 4px auto;
+}
