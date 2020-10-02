@@ -10,6 +10,8 @@ let Search = React.createClass({
 	},
 	componentDidMount: function() {
 		
+		console.log("Calling componentDidMount()")
+		
 		window.onscroll = (event) => {
 			let realHeight = document.documentElement.scrollTop || document.body.scrollTop;
 			let optatic = 0.8 * (realHeight/142);
